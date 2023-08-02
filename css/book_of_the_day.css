@@ -1,0 +1,90 @@
+.Book-Search-page__Book{
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    height: 250px;
+    margin-top: 50px;
+    background-color: white;
+}
+.Book-Search-page h3{
+    margin-bottom: 15px;
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Book-Search-page__bookoftheday__bookimage{
+    margin-left: 20px;
+    background-image: url(https://images.unsplash.com/photo-1619678544265-d74f89515876?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=406&q=80);
+    background-size: cover;
+    width: 170px;
+    height: 200px;
+    border-radius: 10px;
+}
+.Book-Search-page__bookoftheday__contents{
+    display: flex;
+    flex-direction: column;
+    
+}
+.Book-Search-page__bookoftheday{
+    display: flex;
+    flex-direction: column;
+}
+.Book-Search-page__bookoftheday__contents__explain{
+    display: flex;
+    justify-content: space-around;
+}
+.Book-Search-page__bookoftheday__contents__read{
+    display: flex;
+    justify-content: space-between;
+}
+.Book-Search-page__bookoftheday__contents {
+    margin-top: 40px;
+}
+.Book-Search-page__bookoftheday__contents h4 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.Book-Search-page__bookoftheday__contents__star{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.Book-Search-page__bookoftheday__contents__explain div{
+    width: 80px;
+    height: 30px;
+    background-color: #f7f7f7 ;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Book-Search-page__bookoftheday__contents__explain div:first-child{
+    margin-right: 2px;
+}
+.Book-Search-page__bookoftheday__contents__read__Icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffce33 ;
+}
+.Book-Search-page__bookoftheday__contents__read .Book-now{
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.Book-Search-page__bookoftheday__contents__star .fa-star{
+    color: #ffce33;
+}
+.Book-Search-page__bookoftheday__contents__star .fa-regular{
+    color: #f7f7f7;
+}

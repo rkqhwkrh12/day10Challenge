@@ -1,0 +1,35 @@
+@import "reset.css";
+@import "css/library-header.css";
+@import "css/top_adventure_page.css";
+@import "css/book_of_the_day.css";
+@import "css/popular_authors_page.css";
+
+.Top-Adventures__Books__contents__bookimage1{
+    width: 100px;
+    height: 160px;
+    background-image: url(image/1.png);
+    background-size: cover;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+.Top-Adventures__Books__contents__bookimage2{
+    width: 100px;
+    height: 160px;
+    background-image: url(image/2.png);
+    background-size: cover;
+    border-radius: 7px;
+    margin-bottom: 10px;
+  
+}
+.Top-Adventures__Books__contents__bookimage3{
+    width: 100px;
+    height: 160px;
+    background-image: url(image/3.png);
+    background-size: cover;
+    border-radius: 7px;
+    margin-bottom: 10px;
+   
+}
+
+
+

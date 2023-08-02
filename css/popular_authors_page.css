@@ -1,0 +1,39 @@
+.Popular-authors h3{
+    margin-left: 85px;
+    margin-bottom: -20px;
+}
+.Popular-authors__Page {
+    margin-bottom: 50px;
+    margin-left: 85px;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 200px;
+   
+}
+.fa-question{
+    font-size: 130px;
+}
+.Popular-authors__Page__Image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    
+}
+.Popular-authors__Page__contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+.Popular-authors__Page__contents h4{
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+.Popular-authors__Page__contents p{
+    color: rgba(0, 0, 0, 0.3);
+    margin-top: -15px;
+}

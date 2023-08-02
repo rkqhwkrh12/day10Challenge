@@ -1,0 +1,34 @@
+.Top-Adventures{
+    margin-top: 20px;
+    margin-left: 58px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 200px;
+    
+}
+.Top-Adventures__Books{
+    width: 500px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.Top-Adventures__Books__contents{
+    margin-left: 10px;
+  
+    width: 100px;
+    height: 190px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.Top-Adventures__Books__contents__star .fa-star{
+    font-size: 10px;
+    color: #ffce33 ;
+}
+.Top-Adventures__Books__contents__star .fa-regular{
+    color: #f7f7f7;
+}
